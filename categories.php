@@ -3,7 +3,7 @@
 // Description: Handles CRUD operations for Categories.
 
 include 'db_connect.php';
-include 'includes/header.php';
+
 
 $message = '';
 
@@ -129,4 +129,4 @@ if (isset($_GET['action']) && $_GET['action'] == 'edit' && isset($_GET['id'])) {
     <p class="alert alert-warning">No categories found.</p>
 <?php endif; ?>
 
-<?php include 'includes/footer.php'; ?>
+

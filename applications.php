@@ -3,7 +3,7 @@
 // Description: Handles CRUD operations for Applications, including image upload.
 
 include 'db_connect.php';
-include 'includes/header.php';
+
 
 $message = '';
 
@@ -254,4 +254,3 @@ $result = $conn->query($sql);
     <p class="alert alert-warning">No application reviews found.</p>
 <?php endif; ?>
 
-<?php include 'includes/footer.php'; ?>

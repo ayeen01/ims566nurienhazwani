@@ -3,7 +3,7 @@
 // Description: Displays active and inactive application reviews, with search/filter functionality.
 
 include 'db_connect.php';
-include 'includes/header.php';
+
 
 // Search and Filter Logic
 $search_query = "";
@@ -150,4 +150,3 @@ $categories_result = $conn->query("SELECT * FROM Categories ORDER BY title ASC")
     <p class="alert alert-warning">No application reviews found. <a href="applications.php?action=create">Add one now!</a></p>
 <?php endif; ?>
 
-<?php include 'includes/footer.php'; ?>

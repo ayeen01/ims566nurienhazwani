@@ -3,7 +3,8 @@
 // Description: Handles CRUD operations for Comments.
 
 include 'db_connect.php';
-include 'includes/header.php';
+
+
 
 $message = '';
 
@@ -161,4 +162,3 @@ $applications_result = $conn->query("SELECT id, title FROM Applications ORDER BY
     <p class="alert alert-warning">No comments found.</p>
 <?php endif; ?>
 
-<?php include 'includes/footer.php'; ?>
